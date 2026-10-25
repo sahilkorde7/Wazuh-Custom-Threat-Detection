@@ -1,0 +1,9 @@
+<group name="windows,sysmon,custom_detection,">
+  <rule id="100010" level="10">
+    <if_sid>92027</if_sid>
+    <description>Custom Detection: PowerShell process spawned</description>
+    <mitre>
+      <id>T1059.001</id>
+    </mitre>
+  </rule>
+</group>
